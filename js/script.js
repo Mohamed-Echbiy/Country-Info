@@ -72,5 +72,6 @@ function fillInfo() {
   startOfWeek.textContent = `Start of week : ${data[0].startOfWeek}`;
   //map
   const map = document.getElementById("map");
+  map.textContent = "MAP";
   map.href = data[0].maps.googleMaps;
 }
