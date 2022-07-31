@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+.container {
+  padding: 0px 50px;
+}
+@media (max-width: 360px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    padding: 5px;
+  }
+}
+@media (max-width: 765px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    padding: 0px 15px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    padding: 0px 30px;
+  }
+}
+
+.error_Alert {
+  padding: 20px;
+  background-color: rgba(236, 56, 56, 0.795);
+  margin-bottom: 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  letter-spacing: 2px;
+  position: absolute;
+  width: fit-content;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  display: none;
+}
+.error_Alert img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.error_Alert p {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+form input {
+  min-width: 200px;
+  padding: 10px 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+form button {
+  width: 70px;
+  padding: 10px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.info {
+  margin: auto;
+  margin-top: 30px;
+  display: none;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 280px;
+  color: white;
+}
+.info img {
+  max-width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+a {
+  color: white;
+  padding: 5px 10px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
