@@ -97,6 +97,7 @@ form button {
   padding: 10px 0px;
   border-radius: 5px;
   cursor: pointer;
+  background-color: white;
 }
 .info {
   margin: auto;
